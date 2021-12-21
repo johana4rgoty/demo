@@ -1,0 +1,10 @@
+com\example\demo\repo\ProyectoRepo.class
+com\example\demo\DemoApplication.class
+com\example\demo\repo\UsuarioRepo.class
+com\example\demo\models\Data.class
+com\example\demo\models\Proyecto.class
+com\example\demo\controles\eliminar.class
+com\example\demo\models\Rol.class
+com\example\demo\controles\ProyectoController.class
+com\example\demo\controles\Vistas.class
+com\example\demo\models\Usuario.class
