@@ -47,12 +47,12 @@ public class Vistas {
 
         
     }
-    @GetMapping("/user")
+    @GetMapping("/users")
     public String helloWord(){
         return "hjello word";
 
     }
-    @GetMapping("/restricted")
+    @GetMapping("/user")
     public String restricted(){
         return "hjello word";
     }
