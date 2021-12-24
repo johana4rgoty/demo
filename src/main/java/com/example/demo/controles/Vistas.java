@@ -18,6 +18,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.CrossOrigin;
 @CrossOrigin
 @RestController
+
 @RequestMapping("/usuarios")
 public class Vistas {
 
@@ -44,7 +45,18 @@ public class Vistas {
     Usuario create(@RequestBody Usuario usuario){
         return usuarioRepository.save(usuario);
 
+        
     }
+    @GetMapping("/user")
+    public String helloWord(){
+        return "hjello word";
+
+    }
+    @GetMapping("/restricted")
+    public String restricted(){
+        return "hjello word";
+    }
+    
     @PostMapping("{id}")
     Usuario update(@PathVariable String id, @RequestBody Usuario usuario){
         Usuario usuarioFromDB= usuarioRepository
